@@ -1,0 +1,1725 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+a:visited{
+	text-decoration:none;
+	}
+
+
+/*RESET*/
+
+#principal {
+    width: 100%;
+    margin: 0 auto;
+}
+
+p#aviso{
+    float: left;
+    padding: 6px;
+    background: #FFF;
+    border: 1px solid #ff66cc;
+    font: 16px Tahoma, Geneva, sans-serif;
+	font-weight:bold;
+    color: #ff66cc;
+    width: 100%;
+    margin-bottom: 5px;
+    margin:0 auto;
+}
+
+
+/* HEADER */
+
+#barra_topo {
+    background-color: #FFF;
+    height: 49px;
+}
+
+#barra_topo_conteudo {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#conteudo_barra {
+    width: 1000px;
+    margin: 0 auto;
+    height: 117px;
+    margin-top: 10px;
+}
+
+#welcome {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #000;
+    margin-top: 15px;
+    float: left;
+}
+
+#welcome a {
+    color: #000;
+    text-decoration: underline;
+}
+
+#welcome a:hover {
+    color: #FF66CC;
+}
+
+#pedidos {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #000;
+    float: right;
+    margin-top: 15px;
+}
+
+#pedidos a {
+    color: #000;
+    margin-left: 17px;
+}
+
+#pedidos a:hover {
+    color: #FF66CC;
+}
+
+#pedidos img {
+    width: 15px;
+    position: absolute;
+}
+
+
+
+#header {
+    float: left;
+    width: 100%;
+    height: 117px;
+    background-color: #FF66CC;
+}
+
+#conteudo_header {
+    width: 1000px;
+    margin: 0 auto;
+}
+#logo{
+    float: left;
+    width: 328px;
+}
+#logomarca {
+    float: left;
+  	margin-top:4%;
+}
+
+#boxpesquisa {
+    float: left;
+    width: 30px;
+    height: 31px;
+    margin-top: 37px;
+}
+
+#boxpesquisa input {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-style: italic;
+}
+
+#search {
+    height: 30px;
+    width: 350px;
+    box-shadow: #000 1px 1px 5px;
+    border: solid #FFF 5px;
+    border-radius: 15px;
+}
+
+#btn_pesquisa {
+    background: url(../img/lupa.png)center center no-repeat;
+    width: 25px;
+    height: 25px;
+    margin-left: 310px;
+    margin-top: -33px;
+    position: absolute;
+    border-style: none;
+    cursor: pointer;
+}
+.sacolaCompras{
+    float: right;
+    width: 190px;
+}
+.sacolaCompras img{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-top: 32px;
+}
+.sacolaCompras a{
+    margin-top: 50px;
+    float: left;
+    font: 15px Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+}
+.sacolaCompras a:hover{
+    color: #000000;
+}
+
+/* MENU */
+
+#barra_menu {
+    float: left;
+    width: 100%;
+}
+
+/**, *:after, *:before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}*/
+
+.menu{
+  background: #FFF;
+  width:1000px;
+  margin:0 auto;
+  font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+.menu .menu-list, .menu .sub-menu{
+  list-style: none;
+}
+
+.menu a{
+  color: #000;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.menu > .menu-list > li{
+  float: left;
+  position: relative;
+}
+
+.menu > .menu-list > li > a {
+  padding:16px;
+  width:158px;
+  margin: 0 5px;
+  background: #FFF;
+}
+
+.menu > .menu-list > li:hover a {
+  background: #FF66CC;
+  color:#FFF;
+}
+
+.menu > .menu-list > li:hover > .sub-menu {
+  display: block;
+  
+}
+
+.menu > .menu-list > li > .sub-menu {
+  position: absolute;
+  top: 48px;
+  left:5px;
+  background: blue;
+  width: 190px;
+  z-index: 1000;
+  display: none;
+}
+
+.menu > .menu-list > li > .sub-menu > li > a {
+    padding: 10px 20px;
+	transition:0.5s;
+}
+
+.menu > .menu-list > li > .sub-menu > li:hover > a {
+    padding: 10px 20px;
+	color:#000;
+	
+}
+
+
+.menu:after {
+  content: '.';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+  
+}
+
+
+/* SLIDER */
+
+#slide{
+    width: 100%;
+    height: 400px;
+    background-color: #000;
+    z-index: -3000px;
+    margin: 0 auto;
+	overflow: hidden;
+}
+
+#slide ul li{
+    width: 100%;    
+}
+
+#slide ul li .img_slide{
+    width: 100%;
+    height: 400px;
+	position: relative;
+}
+
+#slide ul li .img_slide img{
+	position: relative;
+
+}
+
+
+/* PROPAGANDA */
+
+#conteudo_propaganda {
+    width: 1050px;
+    margin: 0 auto;
+    height: 61px;
+}
+
+#propaganda {
+    float: left;
+    height: 60px;
+    width: 100%;
+}
+
+.box {
+    float: left;
+    width: 20%;
+    height: 58px;
+    margin-left: 42px;
+    margin-top: -5px;
+    ;
+}
+
+.box img {
+    width: 23%;
+    float: left;
+    margin-top: 7%;
+    margin-left: 3%;
+}
+
+.box span {
+    float: right;
+    width: 73.5%;
+    font-size: 15px;
+    font-family: Tekton Pro;
+    margin-top: 17px;
+    font-weight: bold;
+    color: dodgerblue;
+}
+
+
+/* LINHA1 */
+
+#linha1 {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.row1 {
+    float: left;
+    background: #000000;
+    width: 1000px;
+    height: 1px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+
+/* PRODUTO EM DESTAQUE */
+
+#produtos_destaque {
+    width: 100%;
+}
+
+#conteudo_produtos_destaque h2 {
+    font-family: Tahoma, sans-serif, monospace;
+    margin: 0 auto;
+}
+
+#conteudo_produtos_destaque {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#box_produtos1 {
+    float: left;
+    width: 500px;
+    height: 700px;
+}
+
+#prod{
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 95%;
+    height: 335px;
+    border: 1px solid #EBEBEB;
+    border-radius: 14px;
+	cursor:pointer;
+}
+#prod:hover{
+	background: #EBEBEB;
+}
+#img_produto img{
+    float: left;
+    margin-top: 43px;
+	width:250px;
+	height:250px;
+	margin-left:20px;
+	margin-right:10px;
+	border-radius:6px;
+}
+
+#info_prod{
+	float:right;
+	margin-top:43px;;
+	}
+
+#prod_nome {
+    width: 100px;
+    height: 100px;
+}
+
+
+#prod_nome .titulo_produto {
+    text-align: left;
+    font: 35px Tekton Pro;
+    font-weight: bold;
+    color: #ff66cc;
+}
+
+#preco_prod {
+    width: 150px;
+    height: 50px;
+    margin-top: 24px;
+    float: left;
+}
+
+#preco_prod p {
+    text-align: left;
+    font: 20px Tekton Pro;
+    color: #0099cc;
+}
+
+#preco_prod .preco {
+    font: 29px Tekton Pro;
+    color: #0099cc;
+}
+
+#box_produtos2 {
+    float: right;
+    width: 500px;
+    height: 700px;
+}
+
+#btn .btn_comprar {
+    float: left;
+    width: 105px;
+    height: 24px;
+    background: url(../img/loja_comprar_btn.png) top left no-repeat;
+    border: 0;
+    margin-top: 10px;
+}
+
+#btn .btn_comprar:hover {
+    background-position: 0 -24px;
+    cursor: pointer;
+}
+
+
+.prod3 {
+ 	margin-left:13px;
+    float: left;
+    margin-top: 10px;
+    width: 225px;
+    height: 335px;
+    border-radius: 14px;
+    border: 1px solid #EBEBEB;
+}
+
+.prod3:hover{
+	background: #EBEBEB;
+}
+
+.titulo_prod3{
+	font: 22px Tekton Pro;
+    font-weight: bold;
+    color: #ff66cc;
+	}
+
+.preco_prod3{
+	font:22px Tekton Pro;
+	color: #0099cc;
+	}
+	
+.img_produto2 img {
+    margin-top: 30px;
+	width:175px;
+	height:175px;
+	border-radius:5px;
+	margin-bottom:10px;
+	background-color:#FFF;
+}
+
+.img_produto3 img {
+    margin-top: 30px;
+	width:250px;
+	height:250px;
+	border-radius:5px;
+}
+
+.desconto {
+    margin: 0 auto;
+    width: 100px;
+    height: 53px;
+}
+
+.prod3 .ate {
+    margin-top: 3px;
+    font: 17px Tekton Pro;
+    color: #0099cc;
+}
+
+.prod3 .porcento {
+    float: left;
+    text-align: center;
+    font: 40px Tekton Pro;
+    color: #0099cc;
+}
+
+.prod3 .off {
+    float: left;
+    font: Tekton Pro;
+    color: #0099cc;
+}
+
+.btn2 .btn_comprar2 {
+    float: right;
+    margin-right: 70px;
+    width: 90px;
+    height: 24px;
+    background: url(../img/loja_comprar_btn.png) top left no-repeat;
+    border: 0;
+    margin-left: 35px;
+    margin-top: 1px;
+}
+
+.btn2 a.btn_comprar2:hover {
+    background-position: 0 -24px;
+    cursor: pointer;
+}
+
+
+/* LINHA2 */
+
+#linha2 {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.row2 {
+    float: left;
+    background: #000000;
+    width: 1000px;
+    height: 1px;
+    margin: 0 auto;
+}
+
+
+/* PRODUTOS MAIS VENDIDOS */
+
+#produtos_mvendidos {
+    width: 100%;
+}
+
+#conteudo_produtos_mvendidos h2 {
+    font-family: Tahoma, sans-serif, monospace;
+    margin: 0 auto;
+}
+
+#conteudo_produtos_mvendidos {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#box_produtos_mvendidos1 {
+    float: left;
+    width: 1000px;
+    height: 350px;
+    
+}
+
+#box_mvendidos {
+   	float: left;
+    margin-left: 8px;
+    margin-top: 15px;
+    width: 240px;
+    height: 305px;
+    border: 1px solid #EBEBEB;
+	border-radius:25px;
+}
+#box_mvendidos:hover{
+	background: #EBEBEB;
+}
+
+#box_mvendidos .p1 {
+    font: 20px Tekton Pro;
+    font-weight: bold;
+    margin-top: 5px;
+    color: #0099cc;
+}
+
+#box_mvendidos .p2 {
+    font: 15px Trebuchet MS;
+    font-weight: bold;
+    color: #0099cc;
+    margin-bottom: 10px;
+}
+
+#box_mvendidos .p3 {
+    font: 20px Tekton Pro;
+	color: #FF66CC;
+}
+
+#box_mvendidos .p4 {
+    font: 21px Tekton Pro;
+    font-weight: bold;
+    color: #0099cc;
+    margin-bottom: 10px;
+}
+
+#box_mvendidos .p5 {
+    font: 21px Tekton Pro;
+    color: #0099cc;
+}
+
+.img_box_mvendidos{
+	width:200px;
+	height:200px;
+	margin-top:15px;
+	background-color:#FFF;
+	border-radius:5px;
+	}
+
+/* FOOTER */
+#footer {
+    float:left;
+    width:100%;
+    background-color:#FF66CC;
+}
+
+#conteudo_footer {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+/* PARTE INSTITUCIONAL DO RODAPE */
+
+.Institucinal {
+    float: left;
+    text-align: left;
+    
+}
+
+.Institucinal img{
+	margin-top:10px;
+	margin-bottom: 10px;
+	}
+
+.Institucinal h4 {
+    font-family: trebuchet ms, sans-serif, monospace;
+    margin-top: 10px;
+	color:#FFF;
+}
+
+.Institucinal ul {
+    margin-top: 10px;
+}
+
+.Institucinal li {
+    margin-top: 1px;
+    list-style: none;
+}
+
+.Institucinal a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: trebuchet ms, sans-serif, monospace;
+}
+
+.Institucinal a:hover {
+   color:#000;
+}
+
+
+#bloco_right_rodape{
+	float:left;
+	}
+
+#fb-root{
+	float:right;
+	width:440px;
+	margin-left:10px;
+	}
+.fb-page{
+	margin-top:10px;
+	margin-bottom:10px;
+	}
+
+/* BARRA FINAL */
+
+#barra_final {
+    float: left;
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+}
+
+#conteudo_barra_final {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#barra_final p {
+    margin-top: 25px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: dimgray;
+}
+
+#barra_final a {
+    float: right;
+    margin-top: 5px;
+}
+
+
+/* CSS DA SINGLE */
+
+
+/* SLIDE COM IMAGENS DO PRODUTO */
+
+#conteudo_barra_single{
+	width:100%;
+	}
+
+#bloco_geral {
+    width: 1000px;
+	margin:0 auto;
+}
+
+#bloco_left {
+    float: left;
+    width: 300px;
+    height: 400px;
+}
+
+#bloco_right {
+    float: right;
+    width: 652px;
+}
+
+#bloco_right_right{
+	float:right;
+	width:300px;
+	text-align:right;
+	margin-right:20px;
+	}
+	
+#bloco_right_right span{
+	font: 14px Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-weight:bold;
+	}
+
+#txtqtd input{
+	font-weight:bold;
+	width:30px;
+	height:30px;
+	text-align:center;
+	border-radius:10px;
+	border:solid 2px #ccc;
+	margin-top:10px;
+	}
+
+.img_big {
+    float: left;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+	cursor:pointer;
+}
+
+.img_big img{
+	width:300px;
+	height:300px;
+	}
+
+#gallery {
+    list-style-type: none;
+    float: left;
+    margin-top: 3px;
+}
+
+#gallery li {
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-right: 3px;
+    overflow: hidden;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+	cursor:pointer;
+}
+
+#gallery img{
+	width: 70px;
+    height: 70px;
+	}
+
+.title {
+    font: 22px Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    color: #000;
+    font-weight: bold;
+    float: left;
+    margin: 5px 4px;
+}
+
+#dados_produto {
+    float: left;
+    width: 640px;
+    height: 180px;
+    padding: 5px;
+    background: #fff;
+    border: 1px solid #ccc;
+	border-radius:10px;
+}
+
+#conteudo_dados_produto{
+	
+	}
+
+.disp_estoque {
+    display: block;
+    text-align: left;
+    font: 14px Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    color: #999;
+    margin-left: 4px;
+    margin-bottom: 4px;
+}
+
+.disp_estoque a{
+	color:#FF66CC;
+}
+
+.de {
+    display: block;
+    text-align: left;
+    font: 18px Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    color: #DE0000;
+    margin-left: 4px;
+}
+
+.por {
+    display: block;
+    text-align: left;
+    font: 26px Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-weight: bolder;
+    color: #06C;
+    margin-left: 4px;
+    margin-top: 4px;
+}
+
+.parcelas {
+    display: block;
+    text-align: left;
+    font: 14px Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    color: #999;
+    margin-left: 4px;
+    margin-top: 4px;
+}
+
+.exemplares {
+    float: left;
+    display: block;
+    text-align: left;
+    font: 14px Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    color: #999;
+    margin-left: 4px;
+    margin-top: 4px;
+}
+
+#tamanho {
+    width: 175px;
+	height:30px;
+	font: 12px Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-weight:bold;
+	border-radius:10px;
+	border:solid 2px #ccc;
+}
+
+span{
+    font-weight: bold;
+}
+
+#btn_comprar {
+    width: 130px;
+    height: 30px;
+    float: right;
+    margin-top: 20px;
+    cursor: pointer;
+	border-radius:10px;
+	border:none;
+	font: 16px Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-weight:bold;
+	background-color:#FF66CC;
+	color:#FFF;
+	transition:0.1s;
+}
+
+#btn_comprar:hover {
+    background-color:#FFF;
+	border:solid 2px #ff66cc;
+	color:#FF66CC;
+	transition:0.1s;
+}
+
+#prod_rel h2{
+   	float:right;
+    padding: 5px;
+    background: #FFF;
+    border: 1px solid #ccc;
+    width: 640px;
+    text-align: center;
+    font: 17px Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    color: #000;
+    font-weight: bold;
+	border-radius:10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#prod_rel {
+    float: right;
+    width: 652px;
+    margin-top: 5px;
+    
+}
+
+.produto_relacionado {
+    float:left;
+    width: 210px;
+	height:260px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    margin-right:5px;
+	border-radius:15px;
+}
+
+.produto_relacionado:hover {
+    background: #ccc;
+}
+
+.produto_relacionado img {
+    width: 150px;
+    height: 150px;
+    margin-top: 5px;
+	background-color:#FFF;
+	border-radius:5px;
+}
+
+.tit_prod {
+    font: 18px Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-weight:bold;
+	color: #000;
+    padding: 0 1px;
+    display: block;
+    text-align: center;
+}
+
+.preco_prod {
+    font: 20px Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    color: #06C;
+    font-weight: bold;
+    float: left;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.preco_prod_ant{
+	font: 16px Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    color: red;
+    float: left;
+    display: block;
+    width: 100%;
+    text-align: center;
+	}
+	
+.cat_prod{
+	font:14px Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color:#000;
+	}
+
+
+#prod_conteudo {
+	margin-top:5px;
+    width: 1000px;
+	float:left;
+	text-align:left;
+	margin-bottom:5px;
+}
+
+#desc_conteudo_prod{
+	font:16px Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	
+	}
+	
+.tit_conteudo_prod{
+    font: 26px Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    color: #000;
+    border-top: 1px solid #ccc;
+    float: left;
+    text-align: center;
+    width: 1000px;
+	
+}
+
+#fb-root{
+	margin:0 auto;
+	}
+	
+
+/*Pagina do carrinho de compras*/
+
+#carrinho-page {
+    margin: 0 auto;
+    width: 965px;
+}
+
+#carrinho-page h1.title-page {
+    font: 25px tahoma, geneva, sans-serif;
+    color: #666;
+    text-align: left;
+	
+}
+
+#img_sacola{
+    float: left;
+    margin-right:5px;
+	width:30px;
+	margin-bottom:5px;
+}
+
+/*PAGINA DE ERRO 404*/
+
+#content_erro{
+    float: left;
+    padding: 5px;
+    width: 955px;
+    background: #fff;
+    margin-top: 4px;
+    text-align: left;
+}
+
+#content_erro p{
+    float: left;
+    width: 100%;
+    font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #666;
+    margin-bottom: 6px;
+}
+
+/*CARRINHO*/
+
+#carrinho-page table.carrinho {
+    border-collapse: collapse;
+    border: #fff;
+    background: #fff;
+    width: 100%;
+}
+
+#carrinho-page table.carrinho thead {
+    font-weight: normal;
+    font: 19px Tahoma, Geneva, sans-serif;
+    color: ;
+    background: #f5f5f5;
+    filter: progid: DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#f5f5f5', EndColorStr='#d5d5d5');
+    background: -moz-linear-gradient(top, #f5f5f5, #ccc);
+    background: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#ccc));
+    background: linear-gradient(top, #f5f5f5, #ccc);
+}
+
+#carrinho-page table.carrinho tr th {
+    padding: 7px 0;
+}
+
+#carrinho-page table.carrinho tbody {
+    font: 16px Tahoma, Geneva, sans-serif;
+    color: #666;
+}
+
+#carrinho-page table.carrinho thead tr td {
+    padding: 5px 0;
+}
+
+#carrinho-page table.carrinho tbody input {
+    padding: 4px;
+    border: 1px solid #ccc;
+    font: 17px Tahoma, Geneva, sans-serif;
+    color: #ccc;
+    text-align: center;
+    outline: none;
+}
+
+#carrinho-page table.carrinho tbody input:focus {
+    border-color: #333;
+}
+
+#carrinho-page table.carrinho tbody #prodimg {
+    float: left;
+    padding: 5px 25px;
+    margin-right: 5px;
+    border: #fff;
+}
+
+#carrinho-page table.carrinho tbody span {
+    float: left;
+    margin-top: 17px;
+    font-size: 18px;
+}
+
+#carrinho-page table.carrinho tbody td.unitario {
+    color: #09f;
+    font-weight: bold;
+}
+
+#carrinho-page table.carrinho tbody td.sub,
+td.total {
+    color: #090;
+    font-weight: bold;
+}
+
+#carrinho-page table.carrinho tbody td.last {
+    padding: 5px 10px;
+}
+
+form input#update {
+    font: 16px Tahoma, Geneva, sans-serif;
+	text-shadow: #000 0 1px 0;
+    background: #06c;
+    border: 1px solid #fff;
+    box-shadow: #000 0 1px 2px;
+    font-weight: bold;
+    padding: 10px;
+    float: left;
+    margin-left: 10px;
+    color: #FFF;
+	cursor:pointer;
+	border-radius:10px;
+}
+
+form input#update:hover{
+    background: #ff66cc;
+    color: #fff;
+}
+#carrinho-page #opcoes {
+    float: left;
+    padding: 5px;
+    background: #fff;
+    border: 1px solid #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 953px;
+}
+
+#opcoes .calcular {
+    float: left;
+    padding: 1px 4px;
+    width: 400px;
+    text-align: left;
+}
+
+#opcoes .calcular form label select {
+    width: 210px;
+    height: 23px;
+}
+
+#opcoes .calcular form label #cep {
+    margin-top: 5px;
+}
+
+#opcoes .calcular form label input {
+    width: 207px;
+    height: 19px;
+}
+
+#opcoes .calcular form label {
+    display: block;
+    margin: 5px 0;
+}
+
+#opcoes .calcular form label span {
+    display: block;
+    font: 16px Tahoma, Geneva, sans-serif;
+    color: #666;
+    font-weight: bold;
+    margin-bottom: 3px;
+    float: left;
+    width: 60%;
+}
+
+#opcoes .calcular form input[type=submit] {
+    width:150px;
+	height:50px;
+    background: #06C;
+    font: 16px Tahoma, Geneva, sans-serif;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: #000 0 1px 0;
+    border: 1px solid #fff;
+    box-shadow: #000 0 1px 2px;
+	border-radius:10px;
+	float:right;
+	margin-top: 35px;
+}
+
+#opcoes .calcular form input[type=submit]:hover {
+    background: #ff66cc;
+    cursor: pointer;
+}
+
+#opcoes #outros {
+    float: right;
+    padding: 4px;
+    width: 500px;
+    height: 100px;
+}
+
+#outros #continuar {
+    padding: 10px;
+    float: left;
+    background: #FF66CC;
+    border: 1px solid #fff;
+    font: 18px Tahoma, Geneva, sans-serif;
+	font-weight:bold;
+    color: #fff;
+    text-shadow: #000 0 1px 0;
+    box-shadow: #000 0 1px 2px;
+    margin-top:5px;
+	border-radius:10px;
+}
+
+#outros #continuar:hover {
+    background: #06C;
+}
+
+#outros #finalizar {
+    padding: 10px;
+    float: right;
+    background: #FF66CC;
+    border: 1px solid #fff;
+    font: 18px Tahoma, Geneva, sans-serif;
+	font-weight:bold;
+    color: #fff;
+    text-shadow: #000 0 1px 0;
+    box-shadow: #000 0 1px 2px;
+    margin-top: 5px;
+	border-radius:10px;
+}
+
+#outros #finalizar:hover {
+    background: #06C;
+}
+/******************************
+    PAGINA DE VERICAÇÃO
+*******************************/
+#verification{
+    margin: 0 auto;
+    width: 965px;
+    background: #fff;
+    padding: 8px;
+    margin-top: 200px;
+    margin-bottom: 150px;
+}
+
+#verification span.spn-title{font: 17px Tahoma,  Geneva, sans-serif; color: #333; font-weight: bold; text-align: left; float: left; margin-bottom: 5px; margin-top: -10px; width: 100%;}
+#verification .text{
+    float: left;
+    background: ;
+    padding: 4px;
+    width: 400px;
+}
+
+#verification .text a:hover{color: #fc00c2}
+#verification .text a{
+    font: 15px Tahoma, Geneva, sans-serif;
+    color: #444;
+    text-align: justify;
+    padding: 4px 2px;
+    font-weight: bold;
+}
+
+#verification .text p{
+    font: 15px Tahoma, Geneva, sans-serif;
+    color: #666;
+    text-align: justify;
+    padding: 6px 2px;
+    font-weight: bold;
+}
+
+#verification form p a:hover{color: #fc00c2}
+#verification form p a{
+    font: 15px Tahoma, Geneva, sans-serif;
+    color: #444;
+    text-align: justify;
+    padding: 2px 2px;
+    font-weight: bold;
+}
+
+#verification .text p{float: right;}
+
+#verification .logar{
+    float: right;
+    padding: 4px;
+    width: 530px;
+    text-align: left;
+}
+
+#verification .logar label{
+    float: left;
+    display: block;
+    width: 100%;
+    margin-bottom: 4px;
+}
+
+#verification .logar label span{
+    float: left;
+    display: block;
+    width: 80px;
+    margin: 5px 0;
+    font: 15px Tahoma, Geneva, sans-serif;
+    color: #666;
+}
+
+#verification .logar form{float: left; margin-top: 6px;}
+#verification .logar label input{
+    width: 300px;
+    border-radius: 5px;
+    padding: 5px;
+    background: #fff;
+    border: 1px solid #333;
+    float: left;
+    margin-left: 5px;
+    outline: none;
+    font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #666;
+}
+
+#verification .logar input[type=submit]{
+    float: right;
+    padding-bottom: 2px;
+    width: 90px;
+    height: 25px;
+    margin-top: -47px;
+    margin-right: 30px;
+    background: #ff66cc;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    font: 12px Tahoma, Geneva, sans-serif;
+    color: #fff;
+    font-weight: bold;
+}
+
+#verification .logar input[type=submit]:hover{background: #e50999; color: #fff; cursor: pointer}
+#verification .logar a{
+    float: left;
+}
+
+/* pagina de cadastro de clientes */
+
+.title-page-cad{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	}
+	
+#cadastre-se-page h5{
+	color:#aaa;
+	}
+
+#cadastre-se-page{
+    width: 1000px;
+    margin: 0 auto;
+}
+#cadastro_cliente{
+    float: left;
+    margin: 0 auto;
+}
+#cadastro_cliente fieldset{
+    padding: 10px;
+    border: 1px solid #000000;
+    margin-bottom: 6px;
+    padding-bottom: 20px;
+}
+#cadastro_cliente fieldset legend{
+    padding: 5px;
+    font: 16px Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    width: 180px;
+}
+#cadastro_cliente label{display: block; text-align: left}
+#cadastro_cliente .fix{
+    float: left;
+    width: 950px;
+}
+#cadastro_cliente .fix label{
+    float: left;
+    display: inline-block;
+    width: 450px;
+    margin-right: 6px;
+}
+#cadastro_cliente .fix label span{
+    font: 16px Tahoma, Geneva, sans-serif;
+    float: left;
+    width:100%;
+}
+#cadastro_cliente .fix label input{
+    width: 420px;
+    padding: 6px;
+    border: 1px solid #666;
+    outline: none;
+    border-radius: 5px;
+    font: 16px Trebuchet MS, Arial, Helvetica, sans-serif;
+}
+
+#cadastro_cliente label span{
+    font: 16px Tahoma, Geneva, sans-serif;
+    float: left;
+    width:100%;
+    margin-top: 8px;
+}
+#cadastro_cliente label input{
+    width: 420px;
+    padding: 6px;
+    border: 1px solid #666;
+    outline: none;
+    border-radius: 5px;
+    font: 16px Trebuchet MS, Arial, Helvetica, sans-serif;
+}
+#cadastro_cliente label.email-label input{
+    width:420px;
+}
+#cadastro_cliente label.email-label{
+    float: left;
+    width: 450px;
+    margin-right: 5px;
+}
+#cadastro_cliente label.telefone{
+    float: left;
+    width: 200px;
+}
+#cadastro_cliente label.telefone input{
+    width: 190px;
+}
+#cadastro_cliente label.cpf{
+    float: left;
+    width: 200px;
+    margin-left: 25px;
+}
+#cadastro_cliente label.cpf input{
+    width: 195px
+}
+
+
+#cadastro_cliente label.rua-label{
+    float: left;
+    width: 620px;
+    margin-right: 5px;
+}
+#cadastro_cliente label.rua-label input{
+    width: 590px;
+}
+#cadastro_cliente label.num-label{
+    float: left;
+    width: 270px;
+}
+#cadastro_cliente label.num-label input{
+    width: 250px
+}
+.btn-cadCliente{
+    float: left;
+    padding: 10px 10px;
+    margin-bottom:10px;
+	margin-top:10px;
+    background: #06c;
+    border-radius: 15px;
+    font: 16px Tahoma, Geneva, sans-serif;
+	font-weight:bold;
+    color: #FFF;
+    cursor: pointer;
+	border:none;
+}
+
+.btn-cadCliente:hover{
+	background:#FF66CC;
+	}
+
+/*CSS DA PAGINA DAS CATEGORIAS E SUBCATEGORIAS*/
+
+.cat_titulo,.subcat_titulo{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-weight:bold;
+	}
+
+#box_categoria,#box_subcategoria{
+	width:1000px;
+	margin:0 auto;
+	}
+
+.cat_produto{
+	float:left;
+	margin-right:8px;
+	height:350px;
+	width:240px;
+	border:solid #CCC 1px;
+	margin-top:10px;
+	border-radius: 25px;
+	}
+
+.cat_produto:hover{
+	background:#eee;
+	}
+	
+.img_prod_cat{
+	width:200px;
+	height:200px;
+	margin-top:20px;
+	border-radius:25px;
+	background-color:#FFF;
+	}
+	
+.img_prod_cat:hover{
+	background-color:#FFF;
+	}
+	
+.tit_prod_cat{
+	font: 20px Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-weight:bold;
+    color: #000;
+    padding: 0 1px;
+    display: block;
+    text-align: center;
+	}
+	
+.cat_prod_tit{
+	font: 15px Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    color: #AAA;
+    padding: 0 1px;
+    display: block;
+    text-align: center;
+	}
+	
+.preco_prod_cat_anterior{
+	font: 15px Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	padding: 0 1px;
+	display: block;
+	text-align:center;
+	color:red;
+	}
+
+.preco_prod_cat{
+	font: 20px Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	padding: 0 1px;
+	display: block;
+	text-align:center;
+	margin-bottom:10px;
+	font-weight:bold;
+	}
+	
+/* PAGINATOR */
+
+#paginator {
+	margin:0 auto;
+	margin-top:5px;
+	margin-bottom:10px;
+	width:1000px;
+	float:left;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	}
+
+#paginator a{
+	color:#000;
+	}
+	
+/* PÁGINA BUSCA/PESQUISAR */
+
+#pesquisar{
+	margin:0 auto;
+	width:1000px;
+	}
+	
+.prod_search{
+	margin-left:13px;
+    float: left;
+    margin-top: 10px;
+    width: 225px;
+	height:295px;
+    border-radius: 14px;
+    border: 1px solid #EBEBEB;
+	}
+
+.prod_search img{
+	background-color:#FFF;
+	}
+	
+.prod_search:hover{
+	background: #EBEBEB;
+}
+
+.img_prod_search img {
+    margin-top: 10px;
+	width:175px;
+	height:175px;
+	border-radius:5px;
+	background-color:#FFF;
+}	
+	
+.nome_prod_search{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color:#000;
+	font-weight:bold;
+	}
+
+.preco_prod_search{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:20px;
+	}
+
+.preco_anterior_prod_search{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:14px;
+	color:red;
+	}
+	
+.else_noresult{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	margin-top:300px;
+	margin-bottom:150px;
+	}
+	
+/* PÁGINA LOJAS FÍSICAS */
+
+#conteudo_lojas_fisicas{
+	margin:0 auto;
+	width:1000px;
+	}
+
+#conteudo_lojas_fisicas h1,h2{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	}
+	
+#conteudo_lojas_fisicas span{
+	font: 15px Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	text-align:justify;
+	}
+	
+.lojas_maps_left{
+	float:left;
+	width:490px;
+	border:solid #ccc 1px;
+	border-radius:25px;
+	margin-bottom:10px;
+	}
+	
+.lojas_maps_right{
+	float:right;
+	width:490px;
+	border:solid #ccc 1px;
+	border-radius:25px;
+	margin-bottom:10px;
+	}
+	
+.lojas_maps_central{
+	float:left;
+	width:999px;
+	border:solid #ccc 1px;
+	border-radius:25px;
+	margin-bottom:10px;
+	}
+
+/* PÁGINA QUEM SOMOS */
+
+#conteudo_quem_somos{
+	width:1000px;
+	margin:0 auto;
+	}
+	
+#conteudo_quem_somos h1,h2{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	}
+	
+#conteudo_quem_somos img{
+	width:350px;
+	border-radius:25px;
+	}
+	
+#conteudo_quem_somos span{
+	font: 18px Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	text-align:justify;
+	}
+	
+/* PÁGINA FALE CONOSCO */
+
+#fale_conosco{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	width:1000px;
+	margin:0 auto;	
+	}
+	
+.txtboxfcnsc{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	height: 30px;
+    width: 500px;
+    box-shadow: #000 1px 1px 5px;
+    border: solid #FFF 5px;
+    border-radius: 5px;
+	font-style:italic;
+	}
+	
+#txtareafcnsc{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-style:italic;
+	height: 250px;
+    width: 500px;
+    box-shadow: #000 1px 1px 5px;
+    border: solid #FFF 5px;
+    border-radius: 5px;
+	}
+
+.btnsFaleConosco{
+	font: 18px Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-weight:bold;
+	margin-right:5px;
+	height:30px;
+	width:150px;
+	cursor:pointer;
+	}

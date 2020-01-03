@@ -1,0 +1,73 @@
+*{margin: 0; padding: 0;}
+body{
+    background: url(../img/loja_bg.jpg) top left repeat;
+}
+
+#box_log{
+    width: 450px;
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid #666;
+    padding: 6px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -225px;
+    margin-top: -160px;
+}
+
+#box_log h1{
+    float: left;
+    padding: 4px;
+    background: #ea80c9;
+    font: Tahoma, Geneva, sans-serif;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: #000 0 1px 0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    width: 441px;
+}
+
+#box_log .aviso{
+    float: left;
+    padding: 5px;
+    background: #ffffca;
+    border:  2px solid #ffff42;
+    font: 16px "Trebuchet MS", Arial, Helvetia, sans-serif;
+    color: #666;
+    margin: 4px 0;
+    width: 435px;
+}
+
+#box_log form label{
+    display: block;
+    margin: 5px 0;
+}
+
+#box_log form label span{
+    float: left;
+    display: block;
+    margin: 6px 4px;
+    font: 15px Tahoma, Geneva, sans-serif;
+    color: #666;
+    width: 100%; 
+}
+
+#box_log form label input{
+    padding: 8px 6px;
+    margin: 4px;
+    background: #fff;
+    border: 1px solid #999;
+    outline: none;
+    width: 426px;
+    border-radius: 6px;
+    -woz-border-radius:6px;
+    -webkit-border-radius:6px;
+    font: 15px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #666;
+}
+
+#box_log form label:focus{background: #f5f5f5;}
+#box_log input[type=submit]{float: right; padding: 6px 15px; background: #ea80c9; font: 18px Tahoma, Geneva, sans-serif; color: #fff; text-shadow: #000 0 1px 0; border-radius: 3px; border: 2px solid #db5b96; margin: 4px 5px;}
+#box_log input[type=submit]:hover{background: #db5b96; border: 2px solid #ea80c9; cursor: pointer;}

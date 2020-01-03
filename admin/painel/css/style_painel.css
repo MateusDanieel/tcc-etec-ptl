@@ -1,0 +1,321 @@
+*{margin:0; padding:0;}
+body {
+    background: url(../imagens/loja_bg.jpg) top left repeat;
+}
+
+#box {
+    width: 890px;
+    padding: 5px;
+    background: #fff;
+    margin: 10px auto;
+}
+
+#box #header {
+    float: left;
+    width: 888px;
+    height: 90px;
+    border: 1px solid #999;
+    background: #fff;
+}
+
+#header h1{
+    color: deeppink;
+    float: letf;
+    width: 624px;
+    height: 26px;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+
+#content_painel {
+    float: left;
+    width: 890px;
+    background: #fff;
+    margin-top: 5px;
+}
+
+.btn{padding:6px; background:#069; font:16px "Trebuchet MS", tahoma, arial; color:#fff; text-shadow:#000 0 1px 0; border:1px solid #fff;
+box-shadow:#000 0 2px 2px; margin-top:6px;}
+.btn:hover{cursor:pointer; background:#036;}
+
+div.erros{padding:6px; background:#FFFFCA; border:2px solid #FFFF80; float:left; width:97%; margin-top:6px; font:16px tahoma, arial; color:#666;}
+div.erros.vermelho{background:#FFA8A8; border-color:#FF5353;}
+div.erros.verde{background:#B3FFB3; border-color:#37FF37;}
+div.imagem{
+	float:left;
+	width:145px;
+	padding:4px;
+	background:#ebebeb; 
+	margin-top:8px;
+	margin-right:2px;
+}
+div.ocultar{display:none;}
+a#deletar{padding:6px; float:right; text-decoration:none; font:16px tahoma; border-radius:5px; color:#333; border:1px solid #333; background:#FF9D9D;}
+a#deletar:hover{background:#FF6262;}
+a.btn{float:left; padding:6px; background:#069; border:1px solid #fff; font:14px tahoma, arial, helvetica; color:#fff; text-shadow:#000 0 1px 0;
+text-decoration:none; margin-left:18px; border-radius:6px; -moz-border-radius:6px; -webkit-border-radius:6px;}
+a.btn:hover{cursor:pointer; background:#036;}
+a.btn.right{float:right;}
+div.imagem div.img{
+	float:left;
+	width:145px;
+	height:75px;
+	background:#333;
+	overflow:hidden;
+	margin-bottom:7px;
+}
+div#box{
+	width:890px;
+	padding:5px;
+	background:#f5f5f5;
+	margin:10px auto;
+}
+
+div#box div#header{
+	float:left;
+	width:888px;
+	height:90px;
+	border:1px solid #999;
+	background:#fff;
+}
+div#header div.logo{
+	float:left;
+	width:624px;
+	height:26px;
+	background:url(../images/logo_top.jpg) top left no-repeat;
+	margin-top:30px;
+	margin-left:15px;
+}
+div#content_painel{
+	float:left;
+	width:890px;
+	background:#fff;
+	margin-top:5px;
+}
+
+div#content_painel div#sidebar{
+	float:left;
+	width:240px;
+	background:#fff;
+	border:1px solid #999;
+}
+div#sidebar ul{
+	list-style-type:none;
+	margin:5px;
+}
+div#sidebar p{
+	float:left;
+	margin:3px;
+	font:14px Tahoma, Geneva, sans-serif; color:#666;
+	width:100%;
+}
+div#sidebar a#logout{text-decoration:none; margin:3px; padding:3px 8px; background:#FF8080; font:14px Tahoma, Geneva, sans-serif; color:#fff;}
+div#sidebar a#logout:hover{background:#900;}
+div#sidebar ul li{display:block; float:left; background:#ebebeb; width:220px; padding:5px;}
+div#sidebar ul li.title{background:#fff;}
+div#sidebar ul li ul{margin-left:-5px; margin-top:4px; padding-top:2px; border-top:1px dotted #333; width:230px;}
+div#sidebar ul li ul li:hover{background:#ccc;}
+div#sidebar ul li ul li{border-bottom:1px solid #999; height:20px;}
+div#sidebar ul li ul li:last-child{border-bottom:0;}
+
+
+div#sidebar ul li a{
+	text-decoration:none;
+	display:block;
+	font:16px Tahoma, Geneva, sans-serif;
+	color:#333;
+}
+div#sidebar ul li a span{font:13px tahoma; color:#fff; padding:1px 4px; background:#069; border-radius:2px; border:1px solid #036; 
+margin-top:-3px;}
+
+div#content_painel div#sidebar h1{
+	float:left;
+	padding:5px;
+	background:#999;
+	font:16px Tahoma, Geneva, sans-serif;
+	text-transform:uppercase;
+	font-weight:bold;
+	text-shadow:#000 0 1px 0;
+	color:#fff;
+	margin:4px;
+	width:222px;
+}
+div#content_painel div#inc_conteudo{
+	float:right;
+	background:#fff;
+	width:622px;
+	border:1px solid #999;
+	padding:10px;
+}
+div#inc_conteudo div#grafico{
+	width:610px;
+	height:240px;
+	padding:5px;
+	background:#09f;
+}
+div#inc_conteudo ul{
+	list-style-type:none;
+}
+div#inc_conteudo ul.msgs li{
+	float:left;
+	padding:4px;
+	border:1px solid #999;
+	margin:4px 3px;
+	width:605px;
+}
+div#inc_conteudo ul.msgs li.adm{
+	background:#CEE4FD;
+}
+div#inc_conteudo ul.msgs li span{
+	font:15px "Trebuchet MS", tahoma, arial;
+	color:#666;
+}
+div#inc_conteudo ul.msgs li p{
+	font:14px "Trebuchet MS", tahoma, arial;
+	color:#333;
+	margin-top:5px;
+}
+h1.title{
+	float:left;
+	padding:5px;
+	background:#09f;
+	font:17px Tahoma, Geneva, sans-serif;
+	color:#fff;
+	width:610px;
+	text-shadow:#000 0 1px 0;
+	margin-top:7px;
+	text-transform:uppercase;
+}
+h1.title.tickets{width:98%; margin-bottom:3px;}
+h1.title.outras{width:96%; margin-top:0; margin-bottom:3px;}
+
+/*tabela*/
+table.list{
+	float:left;
+	border-collapse:collapse;
+	border:1px solid #333;
+	background:#fff;
+	width:100%;
+	margin-top:8px;
+	text-align:center;
+}
+table.list thead{
+	font:16px Tahoma, Geneva, sans-serif;
+	font-weight:normal;
+	color:#999;
+	text-shadow:#fff 0 1px 0;
+	background:#f5f5f5;
+	background:-moz-linear-gradient(top, #f5f5f5, #ccc);
+	background:-webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#ccc));
+	background:linear-gradient(topo, #f5f5f5, #ccc);
+	filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#f5f5f5', EndColorStr='#d5d5d5');
+}
+table.list thead tr th{padding:5px 0;}
+table.list tbody{
+	font:16px Tahoma, Geneva, sans-serif;
+	color:#666;
+}
+table.list tbody tr td{padding:6px 3px;}
+table.list tbody tr:hover{background:#f5f5f5;}
+
+/*ultimos tickets*/
+div#last-tickets{
+	float:left;
+	width:400px;
+	background:#f5f5f5;
+}
+div#outras_estatisticas{
+	float:right;
+	width:212px;
+	background:#fff;
+	margin-top:8px;
+	height:400px;
+}
+div#outras_estatisticas table.list{text-align:left;}
+
+div#formularios{
+	float:left;
+	padding:3px;
+	background:#f4f4f4;
+	width:615px;
+	margin-top:5px;
+}
+div#formularios label{
+	display:block;
+}
+div#formularios label span.title{
+	font:15px tahoma, arial, helvetica;
+	color:#333;
+	display:block;
+	float:left;
+	width:100%;
+	margin:6px 4px;
+}
+div#formularios label input[type=text], div#formularios label input[type=password]{
+	padding:6px 5px;
+	background:#fff;
+	border:1px solid #ccc;
+	width:600px;
+	outline:none;
+}
+div#formularios label input[type=text]:focus{border-color:#333;}
+div#formularios label input[type=password]:focus{border-color:#333;}
+div#formularios label.img{
+	float:left;
+	padding:8px 5px;
+	background:#fff;
+	border:1px solid #ccc;
+	width:602px;
+}
+div#formularios div.fix{
+	float:left;
+	padding:4px 0;
+	width:615px;
+	margin-bottom:3px;
+}
+div#formularios div.fix label{
+	float:left;
+	display:inline-table;
+	width:300px;
+	margin-right:5px;
+}
+div#formularios div.fix label input[type=text]{
+	width:280px;
+}
+div#formularios div.fix label select{
+	padding:6px;
+	background:#fff;
+	width:290px;
+	font:16px tahoma;
+	color:#666;
+}
+
+/*PAGINADOR DE RESULTADOS*/
+div#paginator{
+	float:left;
+	width:100%;
+	margin:5px 0;
+}
+div#paginator span.page, div#paginator a{
+	padding:4px 6px;
+	background:#fff;
+	border:1px solid #ccc;
+	float:left;
+	margin-right:6px;
+	font:14px Tahoma, Geneva, sans-serif;
+	color:#666;
+	text-decoration:none;
+}
+div#paginator strong{float:left; padding:3px 6px; background:#09f; color:#fff; margin-right:6px;}
+div#paginator a:hover{background:#069; border-color:#036; color:#fff;}
+
+
+table.dados_compra tr td{
+	padding:4px 0;
+	font:15px "Trebuchet MS", arial, helvetica, sans-serif;
+	color:#333;
+}
+a#del{text-decoration:none; font:15px tahoma, arial, sans-serfi; background:#FF8080; padding:4px 6px; float:right; color:#fff;
+border:1px solid #333; margin-top:6px;}
+a#del:hover{background:#FF5E5E;}
